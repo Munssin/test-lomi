@@ -1,0 +1,138 @@
+.a{
+  background-image: url(/img/bg1.png);
+  min-height: 611px;
+  width: 100%;
+  margin-left: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  z-index: 1;
+  .content{
+    padding-left: 80px;
+    h1{
+      max-width: 850px;
+      padding-top: 35px;
+      font-size: 24px;
+      font-family: "Tahoma", sans-serif;
+      span{
+        font-size: 18px;
+      }
+    }
+    h2{
+      max-width: 800px;
+      margin-top: 90px;
+      font-size: 52px;
+      font-family: "Times New Roman", Serif;
+    }
+    p{
+      max-width: 575px;
+      margin-top: 60px;
+      margin-bottom: 65px;
+      font-size: 24px;
+      font-family: "Vijaya", Serif;
+    }
+    a{
+      padding: 10px;
+      border: 1px solid;
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+      transition: 0.5s ease;
+    }
+    a:hover{
+      color: #e3e3e3;
+    }
+  }
+  @media (max-width: 1366px) {
+    .content{
+      padding-left: 50px;
+      h1{
+        max-width: 800px;
+        font-size: 20px;
+        span{
+          font-size: 16px;
+        }
+      }
+      h2{
+        font-size: 48px;
+      }
+      p{
+        font-size: 22px;
+      }
+    }
+  }
+  @media (max-width: 1280px) {
+    .content{
+      padding-left: 30px;
+    }
+  }
+}
+@media (max-width: 1055px) {
+  .a{
+    margin-left: 0;
+    .content{
+      padding-left: 30px;
+      h1{
+        max-width: 600px;
+        font-size: 20px;
+        span{
+          font-size: 16px;
+        }
+      }
+      h2{
+        max-width: 500px;
+        margin-top: 60px;
+        font-size: 50px;
+      }
+      p{
+        max-width: 500px;
+        margin-top: 60px;
+        margin-bottom: 65px;
+        font-size: 22px;
+      }
+      a{
+        padding: 7px;
+        border: 1px solid;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 569px) {
+  .a{
+    margin-left: 0;
+    background-image: none;
+    background-color: #454d52;
+    .content{
+      padding-left: 0;
+      margin: 0 auto;
+      max-width: 304px;
+      padding-bottom: 30px;
+      h1{
+        max-width: 300px;
+        font-size: 24px;
+        span{
+          font-size: 18px;
+        }
+      }
+      h2{
+        max-width: 500px;
+        margin-top: 60px;
+        font-size: 36px;
+      }
+      p{
+        max-width: 500px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 22px;
+      }
+      a{
+        padding: 7px;
+        border: 1px solid;
+        font-size: 20px;
+      }
+    }
+  }
+}

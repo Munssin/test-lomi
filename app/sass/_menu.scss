@@ -1,0 +1,114 @@
+nav{
+  min-width: 77px;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  z-index: 99;
+  ul{
+    list-style: none;
+    padding-left: 0;
+    display: block;
+    li{
+      padding: 17px 0;
+      a{
+        display: flex;
+        justify-content: center;
+        img{
+          transition: 0.5s ease;
+        }
+        img:hover{
+          transform: scale(1.15);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1055px){
+  nav{
+    display: none;
+  }
+}
+#mob-nav{
+  display: none;
+}
+@media (max-width: 1055px){
+  #mob-nav{
+    position: relative;
+    display: block;
+    height: 75px;
+    background-color: #000;
+    .mob-i{
+      position: absolute;
+      left: 40px;
+      top: 17px;
+    }
+    @media (max-width: 569px){
+      .mob-i{
+        left: 25px;
+      }
+    }
+    .ico{
+      position: absolute;
+      right: 25px;
+      top: 22px;
+      transition: 1s ease;
+    }
+    .close{
+      display: none;
+      position: absolute;
+      right: 30px;
+      top: 25px;
+      max-height: 25px;
+    }
+    .open-men{
+      transition: 1s ease;
+    }
+    ul{
+      transition: 1s ease;
+      display: none;
+      position: absolute;
+      list-style: none;
+      top: 75px;
+      background-color: #000;
+      z-index: 999;
+      width: 100%;
+      height: 180px;
+      li{
+        font-size: 22px;
+        padding: 10px 0;
+        padding-left: 80px;
+        position: relative;
+        color: #fff;
+      }
+      li:nth-child(1):before{
+        content: url(/img/nav1.png);
+        position: absolute;
+        left: 0;
+      }
+      li:nth-child(2):before{
+        content: url(/img/nav2.png);
+        position: absolute;
+        left: 0;
+      }
+      li:nth-child(3):before{
+        content: url(/img/3.png);
+        position: absolute;
+        left: 0;
+      }
+      @media (max-width: 569px){
+        li{
+          padding-left: 65px;
+        }
+        li:nth-child(1):before{
+          left: -15px;
+        }
+        li:nth-child(2):before{
+          left: -15px;
+        }
+        li:nth-child(3):before{
+          left: -15px;
+        }
+      }
+    }
+  }
+}
