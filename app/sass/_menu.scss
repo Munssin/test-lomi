@@ -81,17 +81,17 @@ nav{
         color: #fff;
       }
       li:nth-child(1):before{
-        content: url(/img/nav1.png);
+        content: url(../img/nav1.png);
         position: absolute;
         left: 0;
       }
       li:nth-child(2):before{
-        content: url(/img/nav2.png);
+        content: url(../img/nav2.png);
         position: absolute;
         left: 0;
       }
       li:nth-child(3):before{
-        content: url(/img/3.png);
+        content: url(../img/3.png);
         position: absolute;
         left: 0;
       }
